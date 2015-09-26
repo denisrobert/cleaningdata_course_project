@@ -1,8 +1,8 @@
 # Course Project for getdata-032, "Getting and Cleaning Data"
 
-## Objective: generate a tiny data set describing, for each subject and activity, the average value across a number of measurements of variables related to the detection of activities using accelerometer and gyroscopic data in smart phones.
+### Objective: generate a tidy data set describing, for each subject and activity, the average value across a number of measurements of variables related to the detection of activities using accelerometer and gyroscopic data in smart phones.
 
-## Running the script.
+### Running the script.
 
 1. Ensure the script is executed with the current directory set to the folder in which the dataset is located (it should contain at least a features.txt and features_info.txt file)
 2. Execute the script via
