@@ -1,6 +1,7 @@
 # Course Project for getdata-032, "Getting and Cleaning Data"
 
-### Objective: generate a tidy data set describing, for each subject and activity, the average value across a number of measurements of variables related to the detection of activities using accelerometer and gyroscopic data in smart phones.
+### Objective: 
+Generate a tidy data set describing, for each subject and activity, the average value across a number of measurements of variables related to the detection of activities using accelerometer and gyroscopic data in smart phones.
 
 ### Running the script.
 
