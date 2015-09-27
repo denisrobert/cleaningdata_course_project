@@ -1,5 +1,7 @@
 library(dplyr)
 
+
+
 run_analysis <- function(basedir=getwd(), outfile=paste(getwd(), "/cleanupdata.course.results.txt", sep="")) {
   features <- read.table(paste(basedir, "/features.txt", sep=""))
   activities <- read.table(paste(basedir, "/activity_labels.txt", sep=""))

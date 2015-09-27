@@ -12,7 +12,7 @@ Each subset consists of three main files (? is "test" or "train" depending on th
 - X_? contains the feature values for each measurement.
 - y_? contains the activity code for each measurement.
 
-All three files contain the same number of rows, once for each measurement.
+All three files contain the same number of rows, once for each measurement. The values represent the signals from the accelerometer and gyroscope in the phones, normalized and bounded to values between [-1, 1], as described in DATASET_README.txt
 
 ## Variables in the original dataset
 
@@ -45,6 +45,8 @@ E. Remove all columns from the resulting set except those representing the mean 
 The final dataset is the mean calculated on all feature variables (all variables other than subject and activity.name) after grouping the dataset by subject and activity name.
 
 ## Variables in the final data set.
+
+Note: All units for features variables are as in the original data set, since they are averages of the original values.
 
 subject: The ID of the subject on which the measurement was based.
  
